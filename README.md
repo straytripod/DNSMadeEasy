@@ -1,0 +1,2 @@
+# DNSMadeEasy
+DNS Scripts
