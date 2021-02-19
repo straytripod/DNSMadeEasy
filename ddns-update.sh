@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# dnsmadeeasy-update.sh
+# dddns-update.sh
 #
 # This script updates Dynamic DNS records on DNE Made Easy's
 # DNS servers. You must have wget installed for this to work.
