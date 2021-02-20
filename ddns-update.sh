@@ -28,7 +28,7 @@ DMEID=<dns-record-id>
 # uncomment below for public facing server / router with dynmic IP
     #CIPADDR=`ifconfig eth0 | grep inet | awk '{print $2}' | awk -F : '{print $2}'`
 # comment below for public facing server / router with dynmic IP   
-    CIPADDR=`curl  http://myip.dnsmadeeasy.com`
+    CIPADDR='curl  http://myip.dnsmadeeasy.com'
 
 # Check Public IP address
 IPLOG='./Log/currentip.txt' #File Location
