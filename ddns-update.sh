@@ -34,9 +34,8 @@ DMEID=<dns-record-id>
 IPLOG='./Log/currentip.txt' #File Location
 CHLOG='./Log/change.log'  #File Location
 # Check ip currentip.txt does not exists
-if [[ ! -f "$IPLOG" ]]; then
-mkdir ./Log
-touch $IPLOG
+if [ ! -f "$IPLOG" ]; then
+mkdir ./Log && touch $IPLOG
 fi
 OIP=$(cat $IPLOG) # grab the last IP recorded
 
