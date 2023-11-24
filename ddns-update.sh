@@ -49,4 +49,5 @@ if [ "$OIP" = "$CIPADDR" ]; then
 		else
 		echo "There was a Problem updating DNS record."  >> $CHLOG
 		fi
+# copy the update record section below to change more records. you will need adjust the var accordingly.
 fi
